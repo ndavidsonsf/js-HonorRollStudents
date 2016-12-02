@@ -31,7 +31,7 @@ describe("Classroom", function() {
     it("returns only students with average scores of 95 or greater", function() {
       expect(classroom.honorRollStudents()).toEqual(jasmine.arrayContaining([irene, jalil]));
       expect(classroom.honorRollStudents()).not.toEqual(jasmine.arrayContaining([kelvin, myra]));
-    })
-  })
+    });
+  });
 
 });
