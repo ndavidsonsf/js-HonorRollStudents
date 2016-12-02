@@ -1,4 +1,4 @@
-var Student = function(name, score) {
+var Student = function(name, scores) {
   this.firstName = name;
   this.scores = scores;
 };
