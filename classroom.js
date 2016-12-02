@@ -17,4 +17,5 @@ Classroom.prototype.honorRollStudents = function() {
       honorArray.push(this.students[i]);
     };
   };
+  return honorArray;
 };
